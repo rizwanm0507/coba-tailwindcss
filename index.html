@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Mencoba fitur baru di tailwindcss</title>
+  </head>
+  <body>
+    <h1 class="text-5xl text-hijau">Hello tailwindcss 3.3</h1>
+
+    <div class="kotak">ascaascascsa</div>
+
+    <!-- Membuat tema warna -->
+    <section id="myForm" class="flex h-64 justify-center bg-slate-200">
+      <div class="container">
+        <div
+          class="mx-auto mb-10 mt-10 h-44 w-56 rounded-lg bg-sky-200 shadow-lg"
+        >
+          <form action="">
+            <div>
+              <h3
+                class="pb-2 pt-5 text-center font-serif font-semibold text-sky-800"
+              >
+                My Form
+              </h3>
+              <span class="ml-5 mr-5 font-semibold text-sky-800">Email</span>
+              <input
+                placeholder="masukan email"
+                type="email"
+                class="mb-2 ml-5 mr-5 mt-1 rounded-sm pl-2 transition ease-in-out focus:ring-2 focus:ring-tema/60 focus:ring-offset-2"
+              />
+              <div class="mx-auto flex justify-center">
+                <button
+                  class="rounded-md bg-sky-900 px-4 py-2 text-sm font-semibold text-white hover:opacity-50"
+                >
+                  kirim
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- tema warna end -->
+  </body>
+</html>
